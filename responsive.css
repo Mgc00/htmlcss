@@ -1,0 +1,613 @@
+/* Icons */
+.icon{
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+.icon.cancel-btn{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+@media screen and (min-width: 1280px) {
+    .logo{
+        padding-right: 20px;
+    }
+    .menu-item li a{
+        font-size: 16px;
+        padding-right: 20px;
+    }
+    .cta-signin{
+        font-size: 16px;
+        padding-right: 30px;
+    }
+    .getstarted-btn a{
+        font-size: 16px;
+    }
+    /* Eight Section */
+    .eighth-section-two{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 1279px) {
+    .cards-two-all{
+        max-width: 280px;
+    }
+
+    /* Header */
+
+    body.disabledScroll{
+        overflow: hidden;
+    }
+    .icon{
+        display: block;
+    }
+    .icon.hide{
+        display: none;
+    }
+    header{
+        margin-top: 0px;    
+    }
+    .wrapper{
+        display: block;
+        padding: 30px 50px 0 50px;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .menu-item, .cta-btn, .cta-signin{
+        display: none;
+    }
+    .menu-item-two{
+        display: block;
+    }
+    .menu-item-two a{
+        color: #fff;
+        padding-right: 60px;
+        font-size: 18px;
+        font-weight: 300;
+    }
+    header .menu-item-two{
+        position: fixed;
+        top: 0;
+        left: -100%;
+        height: 100%;
+        width: 100%;
+        max-width: 400px;
+        background: #080808;
+        display: block;
+        padding: 40px 0;
+        text-align: center;
+        transition: all 0.4s ease;
+    }
+    header .menu-item-two.active{
+        left: 0%;
+    }
+    header .menu-item-two li{
+        margin-top: 45px;
+    }
+    header .menu-item-two li a{
+        font-size: 24px;
+    }
+
+    /* Banner */
+    #header-content{
+        padding: 150px 50px 100px 50px;
+    }
+    .banner{
+        flex-flow: column-reverse;
+    }
+    .content-1{
+        margin-right: 0;
+        width: 70%;
+    }
+    .content-1 h1{
+        font-size: 50px;
+        line-height: 60px;
+        text-align: center;
+        width: 100%;
+    }
+    .content-1 p{
+        text-align: center;
+        width: 100%;
+    }
+    .content-1 img{
+        display: none;
+    }
+    .content-2 img{
+        width: 100%;
+        margin-left: 0;
+    }
+    .getstart{
+        display: flex;
+        justify-content: center;
+    }
+    .content-2{
+        width: 60%;
+        padding-bottom: 20px;
+    }
+    /* Third Content */
+
+    #sec-third{
+        padding: 100px 50px 0 50px;
+    }
+    .thrd-content{
+        width: 100%;
+    }
+    .thrd-content-two{
+        width: 100%;
+    }
+
+    /* Eighth Content */
+    .withshape{
+        display: none;
+    }
+    .logo-sec-one{
+        margin: 0;
+        padding: 0;
+    }
+    .logo-sec-one{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+    .eighth-section-one h6{
+        width: 100%;
+        padding: 0;
+    }
+    .eighth-section-one p{
+        width: 100%;
+        text-align: center;
+    }
+    .rating h4{
+        font-size: 50px;
+        text-align: center;
+    }
+    .eighth-section-two{
+        width: 100%;
+        flex-direction: column;
+        padding: 0 10px 0 10px;
+    }
+    .stars{
+        flex-flow: column;
+        margin: 0;
+    }
+    .stars img{
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .eighth-section-three {
+        display: flex;
+        flex-flow: column;
+    }
+    .link{
+        padding: 25px 0 80px 0;
+    }
+
+    /* Nineth Section */
+    .nineth-content{
+        flex-flow: column;
+        width: 100%;
+    }
+    .nineth-logo{
+        display: flex;
+        justify-content: center;
+    }
+    .nineth-logo img{
+        width: 50%;
+    }
+    .nineth-logo-content{
+        width: 100%;
+        text-align: center;
+    }
+    .nineth-logo-content ul li{
+        padding: 0;
+        line-height: 30px;
+    }
+
+    /* Tenth Section */
+    
+}
+
+@media screen and (max-width: 1024px) {
+    /* Twelve Section */
+    #sec-twelveth{
+        padding: 50px 20px 50px 20px ;
+    }
+    .real-cards{
+        flex-flow: column;
+    }
+    .cards-all{
+        margin-bottom: 20px;
+    }
+    .cards-all h5{
+        text-align: center;
+    }
+    .cards-all a{
+        padding: 22px 40px 22px 40px;
+    }
+    .carding img{
+        display: none;
+    }
+    .main-cards h6{
+        padding-right: 0;
+        text-align: center;
+    }
+    .main-cards p{
+        width: 100%;
+    }
+    /* Nineteen Content */
+    #sec-nineteenth{
+        padding: 50px 50px 0 50px;
+    }
+    .reals-cards{
+        flex-direction: column;
+        padding-top: 50px
+    }
+    /* Footer */
+    .section-one{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .section-one .logo-footer >img{
+        width: 100%;
+    }
+    .section-one p{
+        padding: 20px 0 20px 0;
+    }
+}
+@media screen and (max-width: 767px){
+
+    /* Banner */
+    .banner{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .content-1{
+        width: 100%;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .content-1 h1, p{
+        text-align: center;
+        width: 100%;
+    }
+    .content-1 p{
+        align-self: center;
+        width: 80%;
+    }
+    .content-2{
+        width: 70%;
+    }
+    .getstart{
+        align-self: center;
+    }
+    /* Third Content */
+
+    #sec-third{
+        padding: 50px 50px 0 50px;
+    }
+    .thrd-content{
+        width: 100%;
+    }
+    .thrd-content-two{
+        width: 100%;
+    }
+
+    /* Forth Content */
+    .content-wrapper{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .forth-content-one{
+        width: 100%;
+        align-items: center;
+        margin: 0;
+    }
+    .forth-content-two{
+        width: 50%;
+    }
+    .forth-content-one p{
+        text-align: center;
+    }
+    .forth-content-one h6{
+        text-align: center;
+        width: 100%;
+        padding: 20px 0 30px 0;
+    }
+    /* Sixth Content */
+    #sec-sixth{
+        padding: 50px 50px 60px 50px
+    }
+
+    /* Fifth Content */
+
+    .content-wrapper-fifth{
+        flex-direction: column;
+    }
+    .fifth-content-one{
+        width: 70%;
+        margin: 0;
+    }
+    .fifth-content-two{
+        width: 100%;
+        margin: 0;
+        padding-top: 20px;
+    }
+    .fifth-content-two h6{
+        text-align: center;
+        padding-bottom: 25px;
+    }
+
+    /* Seventh Content */
+
+    .inside-content-one{
+        flex-direction: column;
+    }
+    .inside-contents-one{
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .inside-contents-one h6, .inside-contents-two h6{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .inside-contents-one p, .inside-contents-two p{
+        padding-bottom: 20px;
+    }
+    .inside-contents-one .icons, .inside-contents-two .icons {
+        align-self: center;
+    }
+    .inside-contents-two{
+        flex-direction: column;
+        width: 100%;
+    }
+    /* Eleven Section */
+    #sec-eleventh{
+        padding: 50px 20px 50px 20px;
+    }
+    .eleven-wrapper-one{
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    .elev-content-one{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .elev-content-one h6{
+        padding-bottom: 20px;
+    }
+
+    /* Twelve Content */
+    
+    /* Twentyoneth Content*/
+    /* Footer */
+    .section-two{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-text{
+        width: 100%;
+    }
+    .termlegal{
+        width: 100%;
+        flex-direction: column;
+    }
+    .menu-item-footer{
+        text-align: center;
+    }
+    .section-three{
+        flex-direction: column;
+    }.section-three .socmed-icons{
+        padding: 20px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 425px){
+    /* Header */
+    #header-content{
+        padding: 140px 20px 140px 20px;
+    }
+
+    /* Banner */
+    .content-1 h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .content-1 p{
+        align-self: center;
+        width: 100%;
+    }
+    .content-2{
+        width: 100%;
+        margin: 0;
+    }
+
+    /* Second Section */
+    .sec-content{
+        padding: 55px 20px 0 20px;
+    }
+    .logos{
+        flex-direction: column;
+    }
+    .soc-gen, .binck, .pro-rt, .xtb, .degiro{
+        width: 80%;
+        padding-bottom: 20px;
+    }
+    .soc-gen img, .binck img, .pro-rt img, .xtb img, .degiro img{
+        width: 100%;
+    }
+
+    /* Third Content */
+    .thrd-content h5{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    #sec-third{
+        padding: 50px 20px 0 20px;
+    }
+    .thrd-content{
+        width: 100%;
+    }
+    .thrd-content-two{
+        width: 100%;
+    }
+
+    /* Forth Content */
+    #sec-forth {
+        padding: 80px 20px 60px 20px;
+    }
+    .forth-content-two{
+        width: 70%;
+    }
+
+    /* Fifth Content */
+
+    #sec-fifth{
+        padding: 40px 20px 30px 20px;
+    }
+
+    /* Sixth Content */
+    #sec-sixth{
+        padding: 50px 20px 60px 20px;
+    }
+    #sec-sixth .thrd-content h5{
+        font-size: 24px;
+    }
+
+    /* Seventh Contenth */
+
+    #sec-seventh{
+        padding: 0 20px 0 20px;
+    }
+    /* Tenth Content */
+    #sec-tenth{
+        padding: 50px 20px 50px 20px;
+    }
+}
+@media screen and (max-width: 375px){
+    /* Header */
+    .wrapper{
+        padding: 30px 20px 0 20px;
+    }
+    .logo{
+        width: 80%;
+        padding-right: 20px;
+    }
+
+    /* Banner */
+    .content-1 h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    /* Third Content */
+    .thrd-content h5{
+        font-size: 20px;
+        line-height: 30px;
+        padding-bottom: 20px
+    }
+    .thrd-content p{
+        font-size: 16px;
+    }
+
+    /* Forth Content */
+
+    .forth-content-one p{
+        font-size: 16px;
+    }
+
+    .forth-content-one h6{
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    /* Fifth Content */
+
+    .fifth-content-two h6{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .fifth-content-two p{
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    /* Sixth Content */
+    #sec-sixth .thrd-content h5{
+        font-size: 20px;
+    }
+    #sec-sixth .thrd-content p{
+        font-size: 16px;
+    }
+    /* Seventh Content */
+    .seventh-content-one{
+        padding: 10px;
+    }
+    .inside-contents-one .icons, .inside-contents-two .icons {
+        padding-right: 0;
+    }
+
+    /* Ninenth Content */
+    #sec-nineth{
+        padding: 0 20px 0 20px;
+    }
+
+    .nineth-logo-content h5{
+        font-size: 24px;
+    }
+
+    /* Tenth Content */
+    #sec-tenth{
+        padding: 50px 20px 50px 20px;
+    }
+    #sec-thirteenth{
+        padding-top: 50px;
+    }
+    #sec-fifteenth{
+        padding: 50px 20px 0 20px;
+    }
+    #sec-sixteenth{
+        padding: 50px 20px 0 20px;
+    }
+    #sec-seventeenth{
+        padding: 50px 20px 0 20px
+    }
+    #sec-eighteenth{
+        padding: 50px 20px 0 20px;
+    }
+    .starss img{
+        width: 100%;
+        align-self: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .cards-two-all{
+        margin: 0;
+        max-width: 280px;
+    }
+    .menu-item-footer{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+}
